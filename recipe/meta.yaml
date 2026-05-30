@@ -18,7 +18,7 @@ source:
     - 0010-Define-post_input_action-post_output_action-for-UHD-.patch
 
 build:
-  number: 17
+  number: 18
   run_exports:
     - {{ pin_subpackage('soapysdr-module-uhd', max_pin='x.x') }}
 
